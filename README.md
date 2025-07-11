@@ -5,3 +5,6 @@ List of Security Tools
 
 - [x] **$\color{Aquamarine}{Docker}$** <br>
 • [nessus-essentials](https://github.com/uid887/SecurityTools/blob/main/docker-compose.nessus.essentials.yml): Setup a Docker for Nessus-Essentials <br>
+
+- [x] **$\color{Aquamarine}{shell.sh}$** <br>
+• [rhel-errata-tool](https://github.com/uid887/SecurityTools/blob/main/rhel-errata-tool.sh): Utility to Inspect & Mitigate Red Hat Errata Advisories (RHSA, RHBA, CVE) <br>
