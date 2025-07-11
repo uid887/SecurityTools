@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  nessus:
+    image: tenable/nessus:10.8.3-ubuntu
+    container_name: nessus
+    ports:
+      - "8834:8834"
+    volumes:
+      - nessus_data:/opt/nessus
+    environment:
+      - ACTIVATION_CODE=####-####-####-####-#### # Enter your Activation Code here
+    restart: unless-stopped
+
+volumes:
+  nessus_data:
